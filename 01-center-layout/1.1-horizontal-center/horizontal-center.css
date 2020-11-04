@@ -1,0 +1,48 @@
+/* 文本元素 */
+#font-parent {
+  text-align: center;
+}
+
+#word{
+  background: #bfa;
+}
+
+/* 单个行内块元素 */
+#single-inline-block {
+  width: 180px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #bfa;
+}
+
+/* 多个行内块元素 */
+#multiple-inline-block-wraper{
+  text-align: center;
+  /* 去除块之间的默认间距 */
+  font-size: 0;
+}
+
+.multiple-inline-block {
+  font-size: 16px;
+  display: inline-block;
+  background-color: #bfa;
+}
+
+/* 利用定位居中 */
+#position-content {
+  position: relative;
+  width: 100px;
+  left: 50%;
+  background-color: #bfa;
+  transform: translateX(-50%);
+}
+
+/* 利用弹性布局居中 */
+#flex-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-content {
+  background-color: #bfa;
+}

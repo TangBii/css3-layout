@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>垂直居中</title>
+  <link rel="stylesheet" href="../public//basic.css">
+  <link rel="stylesheet" href="./vertical-center.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header"><span>垂直居中</span></div>
+    <div class="content">
+
+      <!-- 文本/行内块元素 -->
+      <div class="parent">
+        <span class="font">文本元素</span>
+      </div>
+
+      <!-- 单个块元素 -->
+      <div class="parent">
+        <div class="single-block-fixed-width-child">单个块元素-定位-定高</div>
+      </div>
+      <div class="parent">
+        <div class="single-block-any-width-child">单个块元素-定位-不定高</div>
+      </div>
+      <div class="parent flex-parent">
+        <div class="single-block-flex-child">单个块元素-定位-弹性</div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

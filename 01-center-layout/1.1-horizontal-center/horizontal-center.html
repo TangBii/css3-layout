@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>水平居中</title>
+    <link rel="stylesheet" href="../public/basic.css" />
+    <link rel="stylesheet" href="./horizontal-center.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header"><span>水平居中</span></div>
+      <div class="content">
+
+        <!-- 文本/行内块元素 -->
+        <div id="font-parent">
+          <span id="word">文本元素</span>
+        </div>
+
+        <!-- 单个行内块元素 -->
+        <div id="single-inline-block">单个行内块元素</div>
+
+        <!-- 多个行内块元素 -->
+        <div id="multiple-inline-block-wraper">
+          <div class="multiple-inline-block">多</div>
+          <div class="multiple-inline-block">个</div>
+          <div class="multiple-inline-block">行</div>
+          <div class="multiple-inline-block">内</div>
+          <div class="multiple-inline-block">块</div>
+          <div class="multiple-inline-block">元</div>
+          <div class="multiple-inline-block">素</div>
+        </div>
+
+        <!-- 利用定位 -->
+        <div id="position-content">利用定位居中</div>
+
+        <!-- 利用弹性布局 -->
+        <div id="flex-parent">
+          <div class="flex-content">弹1</div>
+          <div class="flex-content">弹2</div>
+          <div class="flex-content">弹3</div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+/* 基础样式 */
+
+.parent{
+  position: relative;
+  height: 50px;
+  background-color: #bfa;
+  margin: 3px 0;
+}
+
+/* 文本元素 */
+.font {
+  line-height: 50px;
+}
+
+/* 单个块元素-定位-定宽 */
+.single-block-fixed-width-child {
+  position: absolute;
+  height: 30px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  line-height: 30px;
+}
+
+/* 单个块元素-定位-不定宽 */
+.single-block-any-width-child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* 单个块元素-弹性 */
+.flex-parent {
+  display: flex;
+  align-items: center;
+}

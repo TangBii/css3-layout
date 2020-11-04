@@ -1,0 +1,51 @@
+.parent {
+  position: relative;
+  height: 50px;
+  background-color: #bfa;
+  margin: 3px 0;
+}
+
+/* 文本/行内块元素 */
+.font-parent {
+  line-height: 50px;
+  text-align: center;
+}
+span {
+  background-color: tomato;
+}
+
+/* 已知宽高的块级元素 */
+.fixed-block {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background-color: tomato;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* 不知宽高的块级元素-定位 */
+.unknown-block-position{
+  background-color: tomato;
+  white-space: nowrap;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* 不知宽高的块级元素-弹性布局 */
+.flex-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.unknown-block-flex {
+  background-color: tomato;
+  white-space: nowrap;
+}
