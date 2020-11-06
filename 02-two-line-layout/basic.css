@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border: 10px solid tomato;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: width 3s;
+}
+
+.header {
+  position: absolute;
+  left: 50%;
+  top: -26px;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 0 20px;
+  background-color: tomato;
+}
+
+
+.wrapper:hover {
+  width: 300px;
+}
+
+
+.left {
+  width: 200px;
+  height: 400px;
+  background-color: yellowgreen;
+}
+
+.right {
+  height: 600px;
+  background-color: aquamarine;
+}

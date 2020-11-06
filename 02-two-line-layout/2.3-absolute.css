@@ -1,0 +1,10 @@
+.left {
+  position: absolute;
+  left: 0;
+}
+
+.right {
+  position: absolute;
+  left: 200px;
+  right:0;
+}
