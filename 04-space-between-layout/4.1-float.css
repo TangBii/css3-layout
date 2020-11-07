@@ -1,0 +1,11 @@
+#col1, #col2, #col3, #col4 {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  padding-right: 10px;
+  background-clip: content-box;
+}
+
+.wrapper {
+  margin-right: -10px;
+}

@@ -1,7 +1,11 @@
 .wrapper {
   display: table;
+  margin-right: -10px;
 }
 
 #col1, #col2, #col3, #col4 {
   display: table-cell;
+  padding-right: 10px;
+  box-sizing: border-box;
+  background-clip: content-box;
 }

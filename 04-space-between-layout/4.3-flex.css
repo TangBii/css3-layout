@@ -1,7 +1,10 @@
 .wrapper {
   display: flex;
+  margin-right: -10px;
 }
 
 #col1, #col2, #col3, #col4 {
   flex: 1;
+  box-sizing: border-box;
+  border-right: 10px solid white;
 }

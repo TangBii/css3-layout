@@ -10,8 +10,6 @@ html, body {
 #col1, #col2, #col3, #col4 {
   height: 100%;
   text-align: center;
-  width: 25%;
-  float: left;
 }
 
 #col1 {
@@ -33,9 +31,6 @@ html, body {
 
 .wrapper {
   height: 50%;
-  width: 100%;
-  box-sizing: border-box;
-  border: 10px solid brown;
   transition: width 3s;
 }
 
