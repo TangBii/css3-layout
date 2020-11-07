@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.col1 {
+  background-color: tomato;
+  width: 25%;
+}
+
+.col2 {
+  background-color: rgba(240, 48, 14, 0.849);
+  width: 25%;
+}
+
+.col3 {
+  background-color: sandybrown;
+  width: 25%;
+}
+
+.col4 {
+  background-color: salmon;
+  width: 25%;
+}
+
+.wrapper {
+  transition: width 3s;
+  border: 10px aquamarine solid;
+}
