@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+#col1, #col2, #col3, #col4 {
+  height: 100%;
+  text-align: center;
+  width: 25%;
+  float: left;
+}
+
+#col1 {
+  background-color: tomato;
+}
+
+#col2 {
+  background-color: rgba(240, 48, 14, 0.849);
+
+}
+
+#col3 {
+  background-color: sandybrown;
+}
+
+#col4 {
+  background-color: salmon;
+}
+
+.wrapper {
+  height: 50%;
+  width: 100%;
+  box-sizing: border-box;
+  border: 10px solid brown;
+  transition: width 3s;
+}
+
+.wrapper:hover {
+  width: 30%;
+}

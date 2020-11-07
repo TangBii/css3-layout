@@ -1,0 +1,7 @@
+.wrapper {
+  display: table;
+}
+
+#col1, #col2, #col3, #col4 {
+  display: table-cell;
+}
