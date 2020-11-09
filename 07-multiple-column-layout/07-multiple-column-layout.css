@@ -1,0 +1,5 @@
+.wrapper {
+  columns: 3;
+  column-gap: 30px;
+  column-rule: 5px dashed white;
+}
